@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Song Myung', serif;
+  position: relative;
+}
+
+.main {
+  max-width: 650px;
+  margin: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    margin: 25px;
+  }
+}
+
+.content {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+.content__info__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 45px;
+}
+
+.content__info__links {
+  margin-top: 10px;
+}
+
+.paragraph {
+  display: block;
+  margin-bottom: 7px;
+}
